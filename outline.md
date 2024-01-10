@@ -21,3 +21,9 @@ Outro [10-20min]
 - Look around before you analyse - are there tools out there?
 - If not, build your own
 -- If built your own: make it available to community?
+
+# Handouts
+
+## Index of available tools / websites / databases
+- Index by category + Index by use case
+- Up-to-date / maintained version on GitHub
