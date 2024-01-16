@@ -1,10 +1,7 @@
 \documentclass[compress,aspectratio=169]{beamer}
 
 
-%%%--- French library ---%%%
-  \usepackage[utf8]{inputenc}
-
-
+%%%--- beamer ---%%%
 \usetheme{Singapore}
 \usecolortheme{rose}
 
@@ -36,35 +33,34 @@
 }
 
 
+%%%--- Graphics and Colors ---%%%
 \usepackage{graphicx}
 \usepackage{color}
 \graphicspath{{gfx/}}
+\definecolor{ERCblue}{HTML}{004d95}
+\definecolor{ERCpurple}{HTML}{800080}
 
-%\usepackage{bbding}
+%%%--- Useful commands---%%%
+\newcommand{\etal}{\textsl{et al.}}
+\newcommand{\degr}{\ensuremath{^\circ}}
+\newcommand{\arcsec}{\mbox{\ensuremath{^{\prime\prime}}}}
 
-  \newcommand{\etal}{\textsl{et al.}}
-  \newcommand{\degr}{\ensuremath{^\circ}}
-  \newcommand{\arcsec}{\mbox{\ensuremath{^{\prime\prime}}}}
+\renewcommand{\emph}[1]{\textcolor{ERCblue}{#1}}
+\newcommand{\strong}[1]{\textcolor{ERCpurple}{#1}}
+\newcommand{\src}[1]{\textcolor{gray}{\tiny #1}}
+\newcommand{\param}[1]{\textcolor{gray}{\texttt{#1}}}
 
-  \renewcommand{\emph}[1]{\textcolor{blue}{#1}}
-  \newcommand{\strong}[1]{\textcolor{red}{#1}}
-  \newcommand{\src}[1]{\textcolor{gray}{\tiny #1}}
-
-  \newcommand{\param}[1]{\textcolor{gray}{\texttt{#1}}}
-
-
+%%%--- beamer setup ---%%%
 \setbeamertemplate{navigation symbols}[only frame symbol]
-
 \setbeamertemplate{blocks}[rounded]%
                   [shadow=false]
 
+%%%--- main ---%%%
 \begin{document}
 
   \input{sections/title}         %-Ok
-  %\input{sections/why}           %-Ok
+  \input{sections/why}           %-Ok
   \input{sections/example}       %-Ok
-  %\input{sections/vo}            %-Ok
-  %\input{sections/best}          %-
 
 %
 \end{document}
