@@ -1,6 +1,58 @@
 >>> from astroquery.mpc import MPC
 >>> result = MPC.query_object('asteroid', number=56788)
 >>> result[0]['name'], result[0]['tisserand_jupiter']
-    ('Guilbertlepoutre', 3.2)
+('Guilbertlepoutre', 3.2)
+
+>>> result
+[{'absolute_magnitude': '14.22',
+  'aphelion_distance': '3.566',
+  'arc_length': 9428,
+  'argument_of_perihelion': '92.1275',
+  'ascending_node': '317.2229202',
+  'critical_list_numbered_object': False,
+  'delta_v': 10.5,
+  'designation': None,
+  'earth_moid': 1.51199,
+  'eccentricity': '0.1819722',
+  'epoch': '2023-09-13.0',
+  'epoch_jd': '2460200.5',
+  'first_observation_date_used': '1998-03-24.0',
+  'first_opposition_used': '1998',
+  'inclination': '11.87125',
+  'jupiter_moid': 1.9703,
+  'km_neo': False,
+  'last_observation_date_used': '2024-01-15.0',
+  'last_opposition_used': '2024',
+  'mars_moid': 1.02015,
+  'mean_anomaly': '71.14335',
+  'mean_daily_motion': '0.1881137',
+  'mercury_moid': 2.16041,
+  'name': 'Guilbertlepoutre',
+  'neo': False,
+  'number': 56788,
+  'observations': 1424,
+  'oppositions': 18,
+  'orbit_type': 0,
+  'orbit_uncertainty': '0',
+  'p_vector_x': '0.63691566',
+  'p_vector_y': '0.59993606',
+  'p_vector_z': '0.48416441',
+  'perihelion_date': '2022-08-30.8065896990740741',
+  'perihelion_date_jd': '2459822.30659',
+  'perihelion_distance': '2.4676897',
+  'period': '5.24',
+  'pha': False,
+  'phase_slope': '0.15',
+  'q_vector_x': '-0.75816864',
+  'q_vector_y': '0.60124869',
+  'q_vector_z': '0.25234961',
+  'residual_rms': '0.64',
+  'saturn_moid': 6.26212,
+  'semimajor_axis': '3.01663',
+  'tisserand_jupiter': 3.2,
+  'updated_at': '2024-01-16T13:32:14Z',
+  'uranus_moid': 15.1713,
+  'venus_moid': 1.77253}]
+
 
 
