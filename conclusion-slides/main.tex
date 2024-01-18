@@ -1,0 +1,72 @@
+\documentclass[compress,aspectratio=169]{beamer}
+
+
+%%%--- beamer ---%%%
+\usetheme{Nice}
+%\usetheme{Singapore}
+\usecolortheme{rose}
+
+%%%--- Details on Document ---%%%
+\author{B. Carry \& M. Mahlke}
+\institute{Les Houches PNP school}
+\date{2024}
+\title{Online tools in planetary sciences}
+
+%%%--- Hyperreferences ---%%%%
+\usepackage{hyperref}
+\hypersetup{
+%%%%--- Options for Acrobat
+    bookmarks=true,         % show bookmarks bar?
+    unicode=true,           % non-Latin characters in Acrobat's bookmarks
+    pdftoolbar=true,        % show Acrobat's toolbar?
+    pdfmenubar=true,        % show Acrobat's menu?
+    pdffitwindow=true,      % page fit to window when opened
+%%%%--- PDF informations
+    pdfauthor={B. Carry},
+    pdfkeywords={},         % list of keywords
+%%%%--- Link option
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,        % false: boxed links; true: colored links
+    linkcolor=gray,         % color of internal links
+    citecolor=blue,         % color of links to bibliography
+    filecolor=gray,         % color of file links
+    urlcolor=gray           % color of external links
+}
+
+
+%%%--- Graphics and Colors ---%%%
+\usepackage{graphicx}
+\usepackage{color}
+\graphicspath{{gfx/}}
+\definecolor{ERCblue}{HTML}{004d95}
+\definecolor{ERCpurple}{HTML}{800080}
+
+%%%--- Useful commands---%%%
+\newcommand{\etal}{\textsl{et al.}}
+\newcommand{\degr}{\ensuremath{^\circ}}
+\newcommand{\arcsec}{\mbox{\ensuremath{^{\prime\prime}}}}
+
+\renewcommand{\emph}[1]{\textcolor{ERCblue}{#1}}
+\newcommand{\strong}[1]{\textcolor{ERCpurple}{#1}}
+\newcommand{\src}[1]{\textcolor{gray}{\tiny #1}}
+\newcommand{\param}[1]{\textcolor{gray}{\texttt{#1}}}
+
+%%%--- For editing amongst teachers ---%%%
+\newcommand{\MM}[1]{\textbf{\textcolor{cyan}{#1}}}
+\newcommand{\BC}[1]{\textbf{\textcolor{purple}{#1}}}
+\newcommand{\tbd}[1]{\textbf{\textcolor{red}{#1}}}
+
+
+%%%--- beamer setup ---%%%
+\setbeamertemplate{navigation symbols}[only frame symbol]
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+%%%--- main ---%%%
+\begin{document}
+
+  \input{sections/title}         %-Ok
+  \input{sections/why}           %-Ok
+  \input{sections/online}        %-
+
+%
+\end{document}

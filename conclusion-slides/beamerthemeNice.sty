@@ -1,0 +1,151 @@
+% Copyright 2018 by Benoit Carry
+%   Based on Singapore by Till Tantau [Copyright 2007]
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+% See the file doc/licenses/LICENSE for more details.
+
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+\ProcessOptionsBeamer
+  
+
+\mode<presentation>
+
+
+\setbeamercolor{section in head/foot}{use=structure,bg=structure.fg!25!bg}
+\useoutertheme[subsection=false]{miniframes}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Head line
+\setbeamertemplate{headline}
+ {%
+  \begin{beamercolorbox}{section in head/foot}
+  \insertsectionnavigationhorizontal{\textwidth}{}{}
+  \end{beamercolorbox}%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Title Frame
+\setbeamertemplate{title page}[default]
+
+
+\AtBeginDocument{%
+  {
+    \usebeamercolor{section in head/foot}
+  }
+  
+  \pgfdeclareverticalshading{beamer@headfade}{\paperwidth}
+  {%
+    color(0cm)=(bg);
+    color(1.25cm)=(section in head/foot.bg)%
+  }
+
+  \setbeamercolor{section in head/foot}{bg=}
+}
+
+\addtoheadtemplate{\pgfuseshading{beamer@headfade}\vskip-1.25cm}{}
+
+\beamertemplatedotitem
+
+
+%\usepackage{graphicx}
+\setbeamercolor{palette primary}{fg=ERCblue, bg=white}
+\setbeamercolor{palette secondary}{fg=white, bg=ERCblue}
+%\setbeamercolor{palette secondary}{fg=white, bg=transparent}
+
+%\setbeamercovered{dynamic}
+\setbeamercovered{invisible}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Toc & Sidebar
+\useoutertheme[subsection=false]{miniframes}
+\setbeamertemplate{section in head/foot}{%
+  \usebeamercolor*[fg]{palette primary}
+  \insertsectionhead
+}
+\setbeamertemplate{section in head/foot shaded}{%
+  \usebeamercolor*[fg]{palette secondary}
+  \insertsectionhead
+}
+\setbeamertemplate{subsection in head/foot}{%
+  \usebeamercolor*[bg]{palette primary}
+  \insertsubsectionnavigationhorizontal{\textwidth}{}{\hskip0pt plus1filll}
+}
+\setbeamertemplate{subsection in head/foot shaded}{%
+  \usebeamercolor*[bg]r{palette secondary}
+  \insertsubsectionnavigationhorizontal{\textwidth}{}{\hskip0pt plus1}
+}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Navigation buttons 
+\setbeamertemplate{navigation symbols}{}%[]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Lengths and Heights Definition for FrameTitle
+\newlength{\titleLeftOffset}
+  \setlength{\titleLeftOffset}{-.8cm}%0\paperwidth}
+\newlength{\titleLeftLineLength}
+  \setlength{\titleLeftLineLength}{.06\paperwidth}
+\newlength{\titleLineWidth}
+  \setlength{\titleLineWidth}{0.01cm}
+\newlength{\titleRightLineEnd}
+  \setlength{\titleRightLineEnd}{.9\paperwidth}
+\newlength{\titleLength}
+\newlength{\titleHeight}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Frame Title Definition
+\setbeamertemplate{frametitle}
+{
+  \settowidth{\titleLength}{\textbf{\Large{~\insertframetitle~}}}
+  \settoheight{\titleHeight}{\textbf{\Large{~\insertframetitle~}}}
+
+  \addtolength{\titleRightLineEnd}{-\titleLeftOffset}
+  \addtolength{\titleRightLineEnd}{-\titleLeftLineLength}
+  \addtolength{\titleRightLineEnd}{-\titleLength}
+
+  \noindent\hspace{\titleLeftOffset}%
+    \rule[.6\titleHeight]{\titleLeftLineLength}{\titleLineWidth}%
+      \hspace*{-.8\titleLeftLineLength}\rule[.3\titleHeight]{.8\titleLeftLineLength}{\titleLineWidth}%
+        \Large{~\insertframetitle~}%
+%        \textbf{\large{~\insertframetitle~}}%
+      \rule[.6\titleHeight]{\titleRightLineEnd}{\titleLineWidth}%
+    \hspace*{-\titleRightLineEnd}\rule[.3\titleHeight]{.8\titleRightLineEnd}{\titleLineWidth}
+
+  \setlength{\titleRightLineEnd}{.9\paperwidth}
+}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%--- Definition of Footline
+\setbeamertemplate{footline}
+{
+  \textcolor{gray}{
+    \vskip-5pt
+    \hskip4pt
+%    \insertpagenumber / N
+    \insertframenumber /\inserttotalframenumber
+    \hskip4pt
+    \insertshortauthor, \insertshortinstitute, \insertshortdate
+}}
+
+
+\mode
+<all>
