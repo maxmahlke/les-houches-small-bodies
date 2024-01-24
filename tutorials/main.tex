@@ -1,0 +1,263 @@
+%--------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------
+%---          Tutorial for Les Houches                                        ---
+%--------------------------------------------------------------------------------
+%--------------------------------------------------------------------------------
+\RequirePackage[2020-02-02]{latexrelease}
+\documentclass[a4paper]{article}
+
+%%%--- Syllabus or Corrected Version ---%%%
+\usepackage{ifthen}
+\newboolean{corrected}   
+\setboolean{corrected}{false}   % For Syllabus
+% \setboolean{corrected}{true}    % Uncomment for corrected version
+
+%%%--- Encoding ---%%%
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%%%--- Bibliography ---%%%
+\usepackage{aas_macros}
+\usepackage{natbib}
+\bibpunct{(}{)}{;}{a}{,}{,}
+
+%%%--- Course Identification ---%%%
+\usepackage{xspace}
+\newcommand{\event}{Les Houches PNP School\xspace}
+\newcommand{\lecture}{Online tools\xspace}
+\newcommand{\tpYear}{2024\xspace}
+\newcommand{\tpTitre}{Online tools for planetary sciences\xspace}
+\newcommand{\tpProf}{B. Carry \& M. Mahlke\xspace}
+
+%%%--- Margins ---%%%
+\setlength{\textwidth}{18cm}
+\setlength{\hoffset}{0cm}
+\setlength{\oddsidemargin}{-1cm}
+
+\setlength{\textheight}{23cm}
+\setlength{\voffset}{0cm}
+\setlength{\topmargin}{0cm}
+
+%%%--- Header & Footer ---%%%
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+  %\fancyhead[L]{\textcolor{gray}{\event\ -- \lecture}}
+  \fancyhead[L]{\textcolor{gray}{\event}}
+  \fancyhead[R]{\textcolor{gray}{\tpTitre}}
+  \fancyfoot[L]{\textcolor{gray}{\tpYear}}
+  \fancyfoot[C]{\thepage/\pageref{LastPage}}
+  \fancyfoot[R]{\textcolor{gray}{\tpProf}}
+  \ifthenelse{\boolean{corrected}}{
+      \fancyhead[C]{\textcolor{blue}{\Large Solutions}}}
+
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}
+\pagestyle{fancy}
+
+%%%--- Graphics and images ---%%%
+\usepackage{pgf}
+\usepackage{graphicx, pstricks}
+\usepackage{color, colortbl}
+  \definecolor{lCyan}{rgb}{0.88,1,1}
+\usepackage{wrapfig}
+  \graphicspath{{./gfx/}}
+\usepackage{multirow}
+\usepackage{enumitem}
+
+
+%%%--- Autoref macros ---%%%
+\usepackage{catoptions}
+\makeatletter
+\def\figureautorefname{figure}
+\def\tableautorefname{table}
+\def\Autoref#1{%
+  \begingroup
+  \edef\reserved@a{\cpttrimspaces{#1}}%
+  \ifcsndefTF{r@#1}{%
+    \xaftercsname{\expandafter\testreftype\@fourthoffive}
+      {r@\reserved@a}.\\{#1}%
+  }{%
+    \ref{#1}%
+  }%
+  \endgroup
+}
+\def\testreftype#1.#2\\#3{%
+  \ifcsndefTF{#1autorefname}{%
+    \def\reserved@a##1##2\@nil{%
+      \uppercase{\def\ref@name{##1}}%
+      \csn@edef{#1autorefname}{\ref@name##2}%
+      \autoref{#3}%
+    }%
+    \reserved@a#1\@nil
+  }{%
+    \autoref{#3}%
+  }%
+}
+\makeatother
+
+
+%%%--- Counters ---%%%
+\renewcommand{\figurename}{Fig.}
+
+%%%--- Some symbols ---%%%
+\newcommand{\degr}{\ensuremath{^{\circ}}}
+\newcommand{\arcmin}{\mbox{\ensuremath{^{\prime}}}}
+\newcommand{\arcsec}{\mbox{\ensuremath{^{\prime\prime}}}}
+  
+%%%--- Q&A commands ---%%%
+\usepackage{marvosym}
+\newcounter{questions}
+\setcounter{questions}{1}
+\newcommand{\codeS}{\textbf{\Keyboard}}
+\newcommand{\askS}{\textbf{\Writinghand}}
+\renewcommand{\quote}{\ensuremath{^\prime}}
+\newcommand{\cmd}[1]{\textbf{\texttt{\textcolor{gray}{$\ggg$ #1}}}\\}
+
+%%%--- Commands for questions ---%%%
+\newcommand{\ask}[1]{
+    \noindent\textbf{\askS$_{\arabic{section}.\arabic{questions}}$:~#1}
+    \stepcounter{questions}\\}
+\newcommand{\code}[1]{
+    \noindent\textbf{\codeS$_{\arabic{section}.\arabic{questions}}$:~#1}
+    \stepcounter{questions}\\}
+
+%%%--- Commands for answers ---%%%
+\ifthenelse{\boolean{corrected}}{
+  \newcommand{\sol}[1]{\textcolor{blue}{\Coffeecup~#1}\\}
+  \newcommand{\solcode}[1]{\textcolor{blue}{\Coffeecup~\cmd{#1}}\\}
+}{
+  \newcommand{\sol}[1]{}
+  \newcommand{\solcode}[1]{}
+}
+
+%%%--- Pieces of code ---%%%
+\usepackage{amssymb}
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+
+%%%--- For editing amongst teachers ---%%%
+\newcommand{\MM}[1]{\textbf{\textcolor{cyan}{#1}}}
+\newcommand{\BC}[1]{\textbf{\textcolor{purple}{#1}}}
+\newcommand{\tbd}[1]{\textbf{\textcolor{red}{#1}}}
+\newcommand{\strong}[1]{\textbf{#1}}
+
+
+%%%--- Boxes ---%%%%
+\usepackage[many]{tcolorbox}
+\newtcolorbox{mybox}[1]{%
+    tikznode boxed title,
+    enhanced,
+    arc=2mm,
+    colframe=black,
+    interior style={white},
+    attach boxed title to top center= {yshift=-\tcboxedtitleheight/2},
+    fonttitle=\bfseries,
+    colbacktitle=white,coltitle=black,
+    boxed title style={size=normal,colframe=white,boxrule=0pt},
+    title={#1}}
+
+
+%%%--- Hyperreferences ---%%%%
+\usepackage{hyperref}
+  \hypersetup{
+%%%%--- Options for Acrobat
+    bookmarks=true,         % show bookmarks bar?
+    unicode=false,          % non-Latin characters in Acrobat's bookmarks
+    pdftoolbar=true,        % show Acrobat's toolbar?
+    pdfmenubar=true,        % show Acrobat's menu?
+    pdffitwindow=false,     % page fit to window when opened
+%%%%--- PDF informations
+    pdftitle={\event - \lecture - \tpTitre - \tpProf},
+    pdfauthor={\tpProf}, 
+    pdfsubject={Astronomy}, 
+    pdfkeywords={},         % list of keywords
+%%%%--- Link option
+    pdfnewwindow=true,      % links in new window
+    colorlinks=true,        % false: boxed links; true: colored links
+    linkcolor=blue,         % color of internal links
+    citecolor=blue,         % color of links to bibliography
+    filecolor=gray,         % color of file links
+    urlcolor=gray           % color of external links
+  }
+
+
+%%%--- Session-specific Commands ---%%%
+\newcommand{\python}{\texttt{python}\xspace}
+\newcommand{\topcat}{\texttt{TOPCAT}\xspace}
+\newcommand{\stilts}{\texttt{stilts}\xspace}
+\newcommand{\aladin}{\texttt{aladin}\xspace}
+\newcommand{\simbad}{\texttt{SIMBAD}\xspace}
+\newcommand{\skybot}{\texttt{SkyBoT}\xspace}
+\newcommand{\vosa}{\texttt{VOSA}\xspace}
+\newcommand{\sex}{\texttt{SExtractor}\xspace}
+\newcommand{\swarp}{\texttt{SWARP}\xspace}
+\newcommand{\scamp}{\texttt{SCAMP}\xspace}
+\renewcommand{\astap}{\texttt{ASTAP}\xspace}
+\newcommand{\saoimage}{\texttt{ds9}\xspace}
+\newcommand{\astromnet}{\texttt{astrometry.net}\xspace}
+  
+\newcommand{\src}{\textcolor{blue}{$^{\textrm[citation\ needed]}$}\xspace}
+\renewcommand{\sup}[1]{$^{\textrm{#1}}$}
+\newcommand{\sub}[1]{$_{\textrm{#1}}$}
+
+\newcounter{saveitem}
+
+
+\begin{document}
+
+%--------------------------------------------------------------------------------
+%--- Title
+  \noindent\hspace{0.05\textwidth}\fbox{\parbox[c][3cm][c]{.9\textwidth}{
+    \centering   
+    \begin{tabular}{%
+            >{\centering\arraybackslash\hspace{0pt}}m{0.12\textwidth}
+            >{\centering\arraybackslash\hspace{0pt}}m{0.60\textwidth}
+            >{\centering\arraybackslash\hspace{0pt}}m{0.12\textwidth}}
+      &
+      \textbf{\Large{\event - \lecture}} &
+      \\
+      & \textbf{\Huge{\tpTitre}}
+      
+    \end{tabular}
+  }}
+
+
+
+
+%--------------------------------------------------------------------------------
+%--- Sections
+  \setlength{\parindent}{0pt}
+
+  \input{sections/aim}
+  \input{sections/skybot}
+
+%%%--- Bibliography ---%%%
+  \bibliographystyle{aa} 
+  \bibliography{main}
+
+\end{document}
