@@ -10,6 +10,11 @@ date: "2024-01-25"
 - https://newton.spacedys.com/astdys/
 - Dynamical properties, osculating and proper elements, dynamical families.
 
+## Asteroid Families Portal
+
+- http://asteroids.matf.bg.ac.rs/fam/properelements.php
+- Catalogs of proper elements and dynamical family membership
+
 ## Centre de Données de Strasbourg (CDS)
 
 - http://cdsweb.u-strasbg.fr/
@@ -58,6 +63,11 @@ Compilation of parameters from many sources.
 
 - https://sbn.psi.edu/pds/
 - Many standardized catalogs (well-documented PDS format) on SSOs, from space missions, observing campaigns and surveys, and derived properties.
+
+## SSHADE
+
+- https://www.sshade.eu/
+- Collections of spectra acquired in laboratory (meteorites, ices, minerals)
 
 ## SiMDA
 

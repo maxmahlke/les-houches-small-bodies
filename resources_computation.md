@@ -10,12 +10,15 @@ date: "2024-01-25"
 - Forms: https://ssp.imcce.fr/forms
 - APIs: https://ssp.imcce.fr/webservices/
 - Several services for SSOs:
+  - `SkyBot`: cone-search to list SSOs in a field of view
+  - `SkyBot 3D`: get the position of all SSOs at a given epoch
+  - `Miriade`: compute the ephemerides (positions, orientations, rise-transit-set, *etc*)
 
-## IMCCE Miriade
+## JPL Solar System Dyanmics
 
-- Form: /ephemeris
-- API: https://ssp.imcce.fr/webservices/miriade/
-- Compute the ephemerides of the requested targets. Can compute positions, orientations, rise-transit-set...
+- Forms: https://ssd.jpl.nasa.gov/
+- APIs: https://ssd-api.jpl.nasa.gov/
+- Several services for SSOs:
 
 ## Lowell Observatory services
 
