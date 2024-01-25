@@ -30,7 +30,11 @@ date: "2024-01-25"
 - Form: https://ssp.imcce.fr/forms/ssocard
 - API: https://ssp.imcce.fr/webservices/ssodnet/
 
-Huge compilation of data from other resources listed here and published literature.
+Huge compilation of data from other resources listed here and published literature, view several levels of access:
+- `quaero`: All names and aliases 
+- `datacloud`: Bulk access to data 
+- `ssocard`: Best properties for a given SSO
+- `ssobft`: All best properties for all SSOs at once
 
 ## JPL sbdb
 
@@ -43,6 +47,11 @@ Compilation of parameters from many sources.
 
 - https://asteroid.lowell.edu/main/
 - The ASTORB catalog of osculating elements and compilation of properties.
+
+## M4AST
+
+- https://spectre.imcce.fr/m4ast/
+- A compilation of visible and near-infrared spectra of asteroids, with tools for analysis
 
 ## Minor Planet Center (MPC)
 

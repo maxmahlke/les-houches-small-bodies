@@ -12,13 +12,21 @@ date: "2024-01-25"
 - Several services for SSOs:
   - `SkyBot`: cone-search to list SSOs in a field of view
   - `SkyBot 3D`: get the position of all SSOs at a given epoch
-  - `Miriade`: compute the ephemerides (positions, orientations, rise-transit-set, *etc*)
+  - `Miriade/ephemcc`: compute the ephemerides of positions, orientations, rise-transit-set, *etc*)
+  - `Miriade/ephemph`: compute the phyiscal ephemerides (orientations)
+  - `Miriade/rts`: compute the rise-transit-set times
+  - `Miriade/vision`: tool to plan nights of observations
+
 
 ## JPL Solar System Dyanmics
 
 - Forms: https://ssd.jpl.nasa.gov/
 - APIs: https://ssd-api.jpl.nasa.gov/
 - Several services for SSOs:
+  - `Horizons`: Compute ephemerides
+  - `Identification`: List SSOs in a field of view
+  - `What's Observable?`: Lsit all SSOs visible from a location
+
 
 ## Lowell Observatory services
 
@@ -28,3 +36,10 @@ date: "2024-01-25"
   - `AstObs`: observing conditions for a list of targets in a given observatory
   - `AstFinder`: to build finding charts
   - `AstEph`: compute the ephemerides of position
+
+
+## M4AST
+
+- https://spectre.imcce.fr/m4ast/
+- Tools for taxonomy classification and band analysis of spectra
+
