@@ -1,0 +1,69 @@
+---
+title: "Resources for planetary sciences"
+author: [Mahlke, Carry]
+date: "2024-01-25"
+...
+# Online catalogs
+
+## AstDyS
+
+- https://newton.spacedys.com/astdys/
+- Dynamical properties, osculating and proper elements, dynamical families.
+
+## Centre de Données de Strasbourg (CDS)
+
+- http://cdsweb.u-strasbg.fr/
+- Many catalogs from publications. However, the CDS is not built for moving objects.
+
+## DAMIT
+
+- https://astro.troja.mff.cuni.cz/projects/damit/
+- 3D shape models of asteroids from light curve inversion tehcniques
+
+## IMCCE SsODNet
+
+- Form: https://ssp.imcce.fr/forms/ssocard
+- API: https://ssp.imcce.fr/webservices/ssodnet/
+
+Huge compilation of data from other resources listed here and published literature.
+
+## JPL sbdb
+
+- Form: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html
+- API: https://ssd.jpl.nasa.gov/api.html
+
+Compilation of parameters from many sources.
+
+## Lowell Observatory
+
+- https://asteroid.lowell.edu/main/
+- The ASTORB catalog of osculating elements and compilation of properties.
+
+## Minor Planet Center (MPC)
+
+- https://minorplanetcenter.net/
+- Central point for astrometric observations, observatory codes, orbits.
+
+## NEODyS
+
+- https://newton.spacedys.com/neodys/
+- Similar to AstDyS, for NEAs
+
+## OCA MP3C
+
+- https://mp3c.oca.eu/
+- Compilation of data from both large repositories and literature.
+
+## PDS Small Body Node (PDS SBN)
+
+- https://sbn.psi.edu/pds/
+- Many standardized catalogs (well-documented PDS format) on SSOs, from space missions, observing campaigns and surveys, and derived properties.
+
+## SiMDA
+
+- https://astro.kretlow.de/?SiMDA
+- Compilation of masses, diameters, and density of asteroids
+
+## VESPA
+- http://vespa.obspm.fr/planetary/data/
+- Hub allowing to query many different services with a TAP interface
