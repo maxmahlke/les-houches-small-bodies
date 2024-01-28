@@ -4,6 +4,10 @@
 - [ ] Use (number) name format for asteroids in all documents
 - [ ] Make this README the online resource of small body tools
 - [ ] Rename repository to "Les Houches Index of Small Body Services"?
+- [ ] sbpy mentioned?
+- [ ] Replace low-res logos of data aggregators somehow
+- [ ] Consider adding "updates" and "number references" from databases overview
+- [ ] Mini-classy demo, add capability to download individual spectra repos on-demand
 
 ---
 
