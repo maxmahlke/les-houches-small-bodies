@@ -2,7 +2,11 @@
 title: "Resources for planetary sciences"
 author: [Mahlke, Carry]
 date: "2024-01-25"
-...
+---
+
+<!-- Add tags -->
+<!-- Add API access flag? -->
+
 # Online catalogs
 
 ## AstDyS
@@ -31,8 +35,8 @@ date: "2024-01-25"
 - API: https://ssp.imcce.fr/webservices/ssodnet/
 
 Huge compilation of data from other resources listed here and published literature, view several levels of access:
-- `quaero`: All names and aliases 
-- `datacloud`: Bulk access to data 
+- `quaero`: All names and aliases
+- `datacloud`: Bulk access to data
 - `ssocard`: Best properties for a given SSO
 - `ssobft`: All best properties for all SSOs at once
 

@@ -2,8 +2,9 @@
 title: "Resources for planetary sciences"
 author: [Mahlke, Carry]
 date: "2024-01-25"
-...
-# Online serviced
+---
+
+# Online services
 
 ## IMCCE VOSSP
 
@@ -18,7 +19,7 @@ date: "2024-01-25"
   - `Miriade/vision`: tool to plan nights of observations
 
 
-## JPL Solar System Dyanmics
+## JPL Solar System Dynamics
 
 - Forms: https://ssd.jpl.nasa.gov/
 - APIs: https://ssd-api.jpl.nasa.gov/
@@ -43,3 +44,4 @@ date: "2024-01-25"
 - https://spectre.imcce.fr/m4ast/
 - Tools for taxonomy classification and band analysis of spectra
 
+## SVO Filter Profile Service
