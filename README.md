@@ -13,7 +13,7 @@
 
 # Lesson Outline
 
-## 1 - Tuesday
+## 1 - Tuesday [75min]
 
 Intro [20min]
 - Scientific Questions, -> Data Analysis <-, Results
@@ -25,17 +25,28 @@ API Demo [20-30min] - GUI versus API
 - API and requests
 -- API examples: IMCCE, Lowell
 
-## 2 - Thursday
+## 2 - Thursday [75min]
 
-Data Access Demo [30min] - mp3c/lowell vs ssodnet + rocks
+Part I: Data [35min]
+- Databases vs Data Aggregators [5min]
+- Demo: Different Data Aggregators [10min]
+- Missing Meteorites Tool + The N-Body Problem  [5min]
+- Tutorial: Programmatic Data access [15min]
+  - astroquery to access JPL SBDB and others
+  - rocks
 
-Spectra Access Demo [30min] - m4ast/sshade vs classy / astroquery tap + sshade
+Part II: Spectra [30min]
+- Spectra: Databases vs Data Aggregators [5min]
+- Demo: M4AST, RELAB, classy, SSHADE [10min]
+- Tutorial: Programmatic Access of spectra[15min]
+  - SSHADE via TAP
+  - classy (?)
 
-Outro [10-20min]
+Part III: Outro [10min]
 - Step-by-step exploration of shell tools
 - Look around before you analyse - are there tools out there?
 - If not, build your own
--- If built your own: make it available to community?
+  - If built your own: make it available to community?
 
 ---
 
