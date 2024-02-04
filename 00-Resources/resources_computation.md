@@ -44,6 +44,26 @@ date: "2024-01-25"
 - https://spectre.imcce.fr/m4ast/
 - Tools for taxonomy classification and band analysis of spectra
 
-## SVO Filter Profile Service
-## Photometry Pipeline
+
 ## Minor Planet Center
+
+- https://minorplanetcenter.net/
+- **The** official place to send/get astrometry of SSO. 
+
+## OpenOrb
+
+- https://github.com/oorb/oorb
+- Open-source orbit computation
+
+## Photometry Pipeline
+
+- https://photometrypipeline.readthedocs.io/en/latest/
+- A versatile and user-friendly python package for measuing SSO photometry in images
+
+## SVO Filter Profile Service
+
+- http://svo2.cab.inta-csic.es/theory/fps/
+- A huge compilation of information on filters: Zero Point, transmission curve, etc...
+
+
+
