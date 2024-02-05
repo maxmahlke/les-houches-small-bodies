@@ -188,13 +188,11 @@ Where to process data online.
 
 How to process data locally.
 
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#astroquerz"> astroquery </a> - Access to various databases via a unified interface - Asteroids, Comets</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#classy"> AstDys </a> - Taxonomic classification and spectra aggregator - Asteroids</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#pyedra"> AstDys </a> - Phase-function fitting - Asteroids</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#rocks"> AstDys </a> - Access to all data on SsODNet - Asteroids </br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#sbpy"> AstDys </a> - Planetary astronomy functions - <a href="https://postgresql.org"><img src="https://img.shields.io/badge/Asteroids-red"/></a> <a href="https://postgresql.org"><img src="https://img.shields.io/badge/Comets-blue"/></a></br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#space-rocks"> AstDys </a> - Solar System Observations and Dynamics -  <a href="https://postgresql.org"><img src="https://img.shields.io/badge/Asteroids-red"/></a></br>
-
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#astroquery"> `astroquery` </a> - Access to various databases via a unified interface - Asteroids, Comets</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#classy"> `classy` </a> - Taxonomic classification and spectra aggregator - Asteroids</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#pyedra"> `pyedra` </a> - Phase-function fitting - Asteroids</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#rocks"> `rocks` </a> - Access to all data on SsODNet - Asteroids </br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#sbpy"> `sbpy` </a> - Planetary astronomy functions <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/></br>
 
 ## astroquery
 
@@ -205,5 +203,3 @@ How to process data locally.
 ## rocks
 
 ## sbpy
-
-## space-rocks
