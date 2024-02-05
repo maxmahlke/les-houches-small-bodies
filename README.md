@@ -11,11 +11,23 @@
 
 # Databases
 
+Where to get data.
 
-  <a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a> - Near Earth Objects and Asteroid Families</br>
-  <a href="https://github.com/maxmahlke/small-bodes-les-houches#asteroid-families-portal"> Asteroid Families Portal </a> - Asteroid Families</br>
-  <a href="https://github.com/maxmahlke/small-bodes-les-houches#centre-de-donnees-de-strasbourg-cds"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#asteroid-families-portal"> Asteroid Families Portal </a> - Asteroid Families</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#centre-de-donnees-de-strasbourg-cds"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#damit"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#imcce-ssodnet"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#jpl-sbdb"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#lowell-observatory"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#m4ast"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#minor-planet-center-mpc"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#neodys"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#oca-mp3c"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#pds-small-body-node-pds-sbn"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#sshade"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#simda"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+<a href="https://github.com/maxmahlke/small-bodes-les-houches#vespa"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
 
 ## AstDyS
 
@@ -48,7 +60,7 @@ Huge compilation of data from other resources listed here and published literatu
 - `ssocard`: Best properties for a given SSO
 - `ssobft`: All best properties for all SSOs at once
 
-## JPL sbdb
+## JPL SBDB
 
 - Form: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html
 - API: https://ssd.jpl.nasa.gov/api.html
@@ -99,7 +111,19 @@ Compilation of parameters from many sources.
 - http://vespa.obspm.fr/planetary/data/
 - Hub allowing to query many different services with a TAP interface
 
-# Online services
+# Webservices
+
+Where to process data online.
+
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#imcce-vossp"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#jpl-solar system dynamics"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#lowell-observatory services"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#m4ast"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#minor-planet center"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#openorb"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#photometry-pipeline"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#svo-filter profile service"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
 
 ## IMCCE VOSSP
 
@@ -159,3 +183,27 @@ Compilation of parameters from many sources.
 
 - http://svo2.cab.inta-csic.es/theory/fps/
 - A huge compilation of information on filters: Zero Point, transmission curve, etc...
+
+# Software
+
+How to process data locally.
+
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#astroquerz"> astroquery </a> - Access to various databases via a unified interface - Asteroids, Comets</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#classy"> AstDys </a> - Taxonomic classification and spectra aggregator - Asteroids</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#pyedra"> AstDys </a> - Phase-function fitting - Asteroids</br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#rocks"> AstDys </a> - Access to all data on SsODNet - Asteroids </br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#sbpy"> AstDys </a> - Planetary astronomy functions - <a href="https://postgresql.org"><img src="https://img.shields.io/badge/Asteroids-red"/></a> <a href="https://postgresql.org"><img src="https://img.shields.io/badge/Comets-blue"/></a></br>
+<a href="https://github.com/maxmahlke/les-houches-small-bodies#space-rocks"> AstDys </a> - Solar System Observations and Dynamics -  <a href="https://postgresql.org"><img src="https://img.shields.io/badge/Asteroids-red"/></a></br>
+
+
+## astroquery
+
+## classy
+
+## pyedra
+
+## rocks
+
+## sbpy
+
+## space-rocks
