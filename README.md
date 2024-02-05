@@ -13,43 +13,27 @@
 
 Where to get data.
 
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#asteroid-families-portal"> Asteroid Families Portal </a> - Asteroid Families</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#centre-de-donnees-de-strasbourg-cds"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#damit"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#imcce-ssodnet"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#jpl-sbdb"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#lowell-observatory"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#m4ast"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#minor-planet-center-mpc"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#neodys"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#oca-mp3c"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#pds-small-body-node-pds-sbn"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#sshade"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#simda"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-<a href="https://github.com/maxmahlke/small-bodes-les-houches#vespa"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
-
-## AstDyS
+## AstDyS <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://newton.spacedys.com/astdys/
 - Dynamical properties, osculating and proper elements, dynamical families.
 
-## Asteroid Families Portal
+## Asteroid Families Portal <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - http://asteroids.matf.bg.ac.rs/fam/properelements.php
 - Catalogs of proper elements and dynamical family membership
 
-## Centre de Données de Strasbourg (CDS)
+## Centre de Données de Strasbourg (CDS) <img src="https://img.shields.io/badge/Asteroids-red"/><img src="https://img.shields.io/badge/Comets-blue"/><img src="https://img.shields.io/badge/Meteorites-orange"/>
 
 - http://cdsweb.u-strasbg.fr/
 - Many catalogs from publications. However, the CDS is not built for moving objects.
 
-## DAMIT
+## DAMIT <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://astro.troja.mff.cuni.cz/projects/damit/
 - 3D shape models of asteroids from light curve inversion tehcniques
 
-## IMCCE SsODNet
+## IMCCE SsODNet  <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - Form: https://ssp.imcce.fr/forms/ssocard
 - API: https://ssp.imcce.fr/webservices/ssodnet/
@@ -60,54 +44,54 @@ Huge compilation of data from other resources listed here and published literatu
 - `ssocard`: Best properties for a given SSO
 - `ssobft`: All best properties for all SSOs at once
 
-## JPL SBDB
+## JPL SBDB <img src="https://img.shields.io/badge/Asteroids-red"/><img src="https://img.shields.io/badge/Comets-blue"/>
 
 - Form: https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html
 - API: https://ssd.jpl.nasa.gov/api.html
 
 Compilation of parameters from many sources.
 
-## Lowell Observatory
+## Lowell Observatory <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://asteroid.lowell.edu/main/
 - The ASTORB catalog of osculating elements and compilation of properties.
 
-## M4AST
+## M4AST <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://spectre.imcce.fr/m4ast/
 - A compilation of visible and near-infrared spectra of asteroids, with tools for analysis
 
-## Minor Planet Center (MPC)
+## Minor Planet Center (MPC) <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - https://minorplanetcenter.net/
 - Central point for astrometric observations, observatory codes, orbits.
 
-## NEODyS
+## NEODyS <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://newton.spacedys.com/neodys/
 - Similar to AstDyS, for NEAs
 
-## OCA MP3C
+## OCA MP3C <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://mp3c.oca.eu/
 - Compilation of data from both large repositories and literature.
 
-## PDS Small Body Node (PDS SBN)
+## PDS Small Body Node (PDS SBN) <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - https://sbn.psi.edu/pds/
 - Many standardized catalogs (well-documented PDS format) on SSOs, from space missions, observing campaigns and surveys, and derived properties.
 
-## SSHADE
+## SSHADE <img src="https://img.shields.io/badge/Meteorites-orange"/>
 
 - https://www.sshade.eu/
 - Collections of spectra acquired in laboratory (meteorites, ices, minerals)
 
-## SiMDA
+## SiMDA <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://astro.kretlow.de/?SiMDA
 - Compilation of masses, diameters, and density of asteroids
 
-## VESPA
+## VESPA <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 - http://vespa.obspm.fr/planetary/data/
 - Hub allowing to query many different services with a TAP interface
 
@@ -115,17 +99,11 @@ Compilation of parameters from many sources.
 
 Where to process data online.
 
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#imcce-vossp"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#jpl-solar system dynamics"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#lowell-observatory services"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#m4ast"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#minor-planet center"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#openorb"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#photometry-pipeline"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#svo-filter profile service"> AstDys </a> - Near Earth Objects, Asteroid Families</br>
+## classy <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-## IMCCE VOSSP
+Taxonomic classification and spectra aggregator
+
+## IMCCE VOSSP <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - Forms: https://ssp.imcce.fr/forms
 - APIs: https://ssp.imcce.fr/webservices/
@@ -138,7 +116,7 @@ Where to process data online.
   - `Miriade/vision`: tool to plan nights of observations
 
 
-## JPL Solar System Dynamics
+## JPL Solar System Dynamics <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - Forms: https://ssd.jpl.nasa.gov/
 - APIs: https://ssd-api.jpl.nasa.gov/
@@ -148,7 +126,7 @@ Where to process data online.
   - `What's Observable?`: Lsit all SSOs visible from a location
 
 
-## Lowell Observatory services
+## Lowell Observatory services <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://asteroid.lowell.edu/
 - Several services for SSOs:
@@ -158,13 +136,13 @@ Where to process data online.
   - `AstEph`: compute the ephemerides of position
 
 
-## M4AST
+## M4AST <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://spectre.imcce.fr/m4ast/
 - Tools for taxonomy classification and band analysis of spectra
 
 
-## Minor Planet Center
+## Minor Planet Center <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - https://minorplanetcenter.net/
 - **The** official place to send/get astrometry of SSO.
@@ -174,12 +152,7 @@ Where to process data online.
 - https://github.com/oorb/oorb
 - Open-source orbit computation
 
-## Photometry Pipeline
-
-- https://photometrypipeline.readthedocs.io/en/latest/
-- A versatile and user-friendly python package for measuing SSO photometry in images
-
-## SVO Filter Profile Service
+## SVO Filter Profile Service <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - http://svo2.cab.inta-csic.es/theory/fps/
 - A huge compilation of information on filters: Zero Point, transmission curve, etc...
@@ -188,18 +161,27 @@ Where to process data online.
 
 How to process data locally.
 
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#astroquery"> `astroquery` </a> - Access to various databases via a unified interface - Asteroids, Comets</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#classy"> `classy` </a> - Taxonomic classification and spectra aggregator - Asteroids</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#pyedra"> `pyedra` </a> - Phase-function fitting - Asteroids</br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#rocks"> `rocks` </a> - Access to all data on SsODNet - Asteroids </br>
-<a href="https://github.com/maxmahlke/les-houches-small-bodies#sbpy"> `sbpy` </a> - Planetary astronomy functions <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/></br>
+## astroquery <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
-## astroquery
+Access to various databases via a unified interface
 
-## classy
+## classy <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-## pyedra
+Taxonomic classification and spectra aggregator
 
-## rocks
+## Photometry Pipeline <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
-## sbpy
+- https://photometrypipeline.readthedocs.io/en/latest/
+- A versatile and user-friendly python package for measuing SSO photometry in images
+
+## pyedra <img src="https://img.shields.io/badge/Asteroids-red"/>
+
+Phase-function fitting
+
+## rocks <img src="https://img.shields.io/badge/Asteroids-red"/>
+
+Access to all data on SsODNet
+
+## sbpy <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/></br>
+
+Planetary astronomy functions
