@@ -1,12 +1,15 @@
 <p align="center">
   <img width="260" src="https://raw.githubusercontent.com/maxmahlke/les-houches-small-bodies/main/00-Resources/logo.svg">
+  </br>
+  <h1 align="center">Les Houches Index of Small-Body Tools</h1>
 </p>
+
 
 <p align="center">
-  <a href="https://github.com/maxmahlke/les-houches-small-bodies#databases-and-data-aggregators"> Databases and Data Aggregators </a> - <a href="https://github.com/maxmahlke/small-bodes-les-houches#webservices"> Webservices </a> - <a href="https://github.com/maxmahlke/small-bodes-les-houches#software"> Software </a>
+  <a href="https://github.com/maxmahlke/les-houches-small-bodies#databases"> Databases </a> - <a href="https://github.com/maxmahlke/small-bodes-les-houches#webservices"> Webservices </a> - <a href="https://github.com/maxmahlke/small-bodes-les-houches#software"> Software </a>
 </p>
 
-# Databases and Data Aggregators
+# Databases
 
 <p align="center">
   <a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a>
