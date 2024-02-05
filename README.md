@@ -11,11 +11,11 @@
 
 # Databases
 
-<p align="center">
-  <a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a>
-  <a href="https://github.com/maxmahlke/small-bodes-les-houches#asteroid-families-portal"> Asteroid Families Portal </a>
-  <a href="https://github.com/maxmahlke/small-bodes-les-houches#centre-de-donnees-de-strasbourg-cds"> Centre de Donées de Strasbourg (CDS) </a>
-</p>
+
+  <a href="https://github.com/maxmahlke/les-houches-small-bodies#astdys"> AstDys </a> - Near Earth Objects and Asteroid Families</br>
+  <a href="https://github.com/maxmahlke/small-bodes-les-houches#asteroid-families-portal"> Asteroid Families Portal </a> - Asteroid Families</br>
+  <a href="https://github.com/maxmahlke/small-bodes-les-houches#centre-de-donnees-de-strasbourg-cds"> Centre de Donées de Strasbourg (CDS) </a> - Asteroids, Comets, Meteorites</br>
+
 
 ## AstDyS
 
