@@ -1,4 +1,9 @@
-# Online catalogs
+
+<p align="center">
+  <a href="https://github.com/maxmahlke/rocks#features"> Features </a> - <a href="https://github.com/maxmahlke/rocks#install"> Install </a> - <a href="https://github.com/maxmahlke/rocks#documentation"> Documentation </a>
+</p>
+
+# Databases and Data Aggregators
 
 ## AstDyS
 
