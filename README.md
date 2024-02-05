@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="260" src="https://raw.githubusercontent.com/maxmahlke/les-houches-small-bodies/master/00-resources/_static/logo.svg">
+  <img width="260" src="https://raw.githubusercontent.com/maxmahlke/les-houches-small-bodies/main/00-Resources/logo.svg">
 </p>
 
 <p align="center">
