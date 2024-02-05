@@ -23,7 +23,7 @@ Where to get data.
 - http://asteroids.matf.bg.ac.rs/fam/properelements.php
 - Catalogs of proper elements and dynamical family membership
 
-## Centre de Données de Strasbourg (CDS) <img src="https://img.shields.io/badge/Asteroids-red"/><img src="https://img.shields.io/badge/Comets-blue"/><img src="https://img.shields.io/badge/Meteorites-orange"/>
+## Centre de Données de Strasbourg (CDS) <img src="https://img.shields.io/badge/Asteroids-red"/><img src="https://img.shields.io/badge/Comets-blue"/><img src="https://img.shields.io/badge/Meteorites-purple"/>
 
 - http://cdsweb.u-strasbg.fr/
 - Many catalogs from publications. However, the CDS is not built for moving objects.
@@ -81,7 +81,7 @@ Compilation of parameters from many sources.
 - https://sbn.psi.edu/pds/
 - Many standardized catalogs (well-documented PDS format) on SSOs, from space missions, observing campaigns and surveys, and derived properties.
 
-## SSHADE <img src="https://img.shields.io/badge/Meteorites-orange"/>
+## SSHADE <img src="https://img.shields.io/badge/Meteorites-purple"/>
 
 - https://www.sshade.eu/
 - Collections of spectra acquired in laboratory (meteorites, ices, minerals)
