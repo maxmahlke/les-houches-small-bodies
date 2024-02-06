@@ -98,7 +98,7 @@ Where to process data online.
 ## classy <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://classy.streamlit.app/
-- Web interface of the `[classy](https://github.com/maxmahlke/les-houches-small-bodies#classy--1)` `python`, offering access to the spectra database and the classification of public spectra and of your own observations
+- Web interface of the [`classy`](https://github.com/maxmahlke/les-houches-small-bodies#classy--1) `python`, offering access to the spectra database and the classification of public spectra and of your own observations
 
 ## IMCCE VOSSP <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
