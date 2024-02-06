@@ -91,17 +91,14 @@ Compilation of parameters from many sources.
 - https://astro.kretlow.de/?SiMDA
 - Compilation of masses, diameters, and density of asteroids
 
-## VESPA <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
-- http://vespa.obspm.fr/planetary/data/
-- Hub allowing to query many different services with a TAP interface
-
 # Webservices
 
 Where to process data online.
 
 ## classy <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-Taxonomic classification and spectra aggregator
+- https://classy.streamlit.app/
+- Web interface of the `classy` `python`, offering access to the spectra database and the classification of public spectra and of your own observations
 
 ## IMCCE VOSSP <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
@@ -123,7 +120,7 @@ Taxonomic classification and spectra aggregator
 - Several services for SSOs:
   - `Horizons`: Compute ephemerides
   - `Identification`: List SSOs in a field of view
-  - `What's Observable?`: Lsit all SSOs visible from a location
+  - `What's Observable?`: List all SSOs visible from a location
 
 
 ## Lowell Observatory services <img src="https://img.shields.io/badge/Asteroids-red"/>
@@ -147,41 +144,65 @@ Taxonomic classification and spectra aggregator
 - https://minorplanetcenter.net/
 - **The** official place to send/get astrometry of SSO.
 
-## OpenOrb
-
-- https://github.com/oorb/oorb
-- Open-source orbit computation
-
 ## SVO Filter Profile Service <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - http://svo2.cab.inta-csic.es/theory/fps/
 - A huge compilation of information on filters: Zero Point, transmission curve, etc...
 
+## VESPA <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
+- http://vespa.obspm.fr/planetary/data/
+- Hub allowing to query many different services with a TAP interface
+
 # Software
 
 How to process data locally.
 
+## ATM <img src="https://img.shields.io/badge/Asteroids-red"/>
+
+- https://github.com/moeyensj/atm
+- A `python` package to build asteroid thermal models
+
 ## astroquery <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
-Access to various databases via a unified interface
+- https://astroquery.readthedocs.io/en/latest/
+- A `python` package offering access to various astronomical databases via a unified interface
 
 ## classy <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-Taxonomic classification and spectra aggregator
+- https://github.com/maxmahlke/classy
+- A `python` package for easy access and analysis to (almost) all asteroid spectra out there and
+taxonomic classification in multiple systems
+
+## NEATM <img src="https://img.shields.io/badge/Asteroids-red"/>
+
+- https://github.com/MigoMueller/NEATM
+- A `python` implementation of the Near-Earth Asteroid Thermal Model (NEATM)
+
+## OpenOrb <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
+
+- https://github.com/oorb/oorb
+- Open-source orbit computation written in Fortran
 
 ## Photometry Pipeline <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - https://photometrypipeline.readthedocs.io/en/latest/
-- A versatile and user-friendly python package for measuing SSO photometry in images
+- A versatile and user-friendly python package for measuring SSO photometry in images
 
 ## pyedra <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-Phase-function fitting
+- https://github.com/milicolazo/Pyedra
+- A `python` package for phase-function fitting using different photometric models
 
 ## rocks <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-Access to all data on SsODNet
+- https://github.com/maxmahlke/rocks
+- A `python` package offering simple access to all data and services of [SsODNet](https://github.com/maxmahlke/les-houches-small-bodies#imcce-ssodnet--):
+best estimates of dynamical and physical parameters of asteroids, compilation
+of literature values, and name resolver.
 
 ## sbpy <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/></br>
 
+- https://sbpy.readthedocs.io/en/latest/index.html
+- `astropy`-affiliated `python` package with functions for planetary astronomy:
+data access, photometric and spectrophotometric analysis, and more.
 Planetary astronomy functions
