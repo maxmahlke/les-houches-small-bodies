@@ -81,6 +81,11 @@ Compilation of parameters from many sources.
 - https://sbn.psi.edu/pds/
 - Many standardized catalogs (well-documented PDS format) on SSOs, from space missions, observing campaigns and surveys, and derived properties.
 
+## RELAB  <img src="https://img.shields.io/badge/Meteorites-purple"/>
+
+- https://pds-speclib.rsl.wustl.edu/
+- Large library of meteorite and mineral spectra
+
 ## SSHADE <img src="https://img.shields.io/badge/Meteorites-purple"/>
 
 - https://www.sshade.eu/
@@ -90,6 +95,11 @@ Compilation of parameters from many sources.
 
 - https://astro.kretlow.de/?SiMDA
 - Compilation of masses, diameters, and density of asteroids
+
+## USGS Spectral Library <img src="https://img.shields.io/badge/Meteorites-purple"/>
+
+- https://www.usgs.gov/labs/spectroscopy-lab/science/spectral-library
+- Large library of mineral and mineral-mixture spectra
 
 # Webservices
 
