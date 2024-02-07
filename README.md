@@ -53,7 +53,7 @@ Compilation of parameters from many sources.
 
 ## Lowell Observatory <img src="https://img.shields.io/badge/Asteroids-red"/>
 
-- https://asteroid.lowell.edu/main/
+- https://asteroid.lowell.edu/
 - The ASTORB catalog of osculating elements and compilation of properties.
 
 ## M4AST <img src="https://img.shields.io/badge/Asteroids-red"/>
