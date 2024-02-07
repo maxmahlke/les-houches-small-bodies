@@ -123,7 +123,7 @@ Where to process data online.
   - `What's Observable?`: List all SSOs visible from a location
 
 
-## Lowell Observatory services <img src="https://img.shields.io/badge/Asteroids-red"/>
+## Lowell Observatory services <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
 
 - https://asteroid.lowell.edu/
 - Several services for SSOs:
@@ -131,6 +131,7 @@ Where to process data online.
   - `AstObs`: observing conditions for a list of targets in a given observatory
   - `AstFinder`: to build finding charts
   - `AstEph`: compute the ephemerides of position
+  - `Comet Fluorescence Efficiencies`: Comet fluorescence efficiencies and Haser model
 
 
 ## M4AST <img src="https://img.shields.io/badge/Asteroids-red"/>
