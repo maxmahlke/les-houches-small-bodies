@@ -220,6 +220,11 @@ taxonomic classification in multiple systems
 best estimates of dynamical and physical parameters of asteroids, compilation
 of literature values, and name resolver.
 
+## Small Body Mapping Tool <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/>
+
+- https://sbmt.jhuapl.edu
+- Interactive tool to visualize and manipulate small body shape models in 3D. Project spacecraft data directly on the shape models of asteroids and comets.
+
 ## sbpy <img src="https://img.shields.io/badge/Asteroids-red"/> <img src="https://img.shields.io/badge/Comets-blue"/></br>
 
 - https://sbpy.readthedocs.io/en/latest/index.html
