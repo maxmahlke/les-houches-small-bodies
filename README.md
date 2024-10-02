@@ -213,6 +213,11 @@ taxonomic classification in multiple systems
 - https://photometrypipeline.readthedocs.io/en/latest/
 - A versatile and user-friendly python package for measuring SSO photometry in images
 
+## phunk <img src="https://img.shields.io/badge/Asteroids-red"/>
+
+- https://github.com/maxmahlke/phunk
+- A `python` package for phase-function fitting using different photometric models
+
 ## pyedra <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://github.com/milicolazo/Pyedra
