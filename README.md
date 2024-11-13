@@ -198,6 +198,11 @@ How to process data locally.
 - A `python` package for easy access and analysis to (almost) all asteroid spectra out there and
 taxonomic classification in multiple systems
 
+## kete <img src="https://img.shields.io/badge/Asteroids-red"/>
+
+- https://github.com/Caltech-IPAC/kete
+- A collection of tools which enable the simulation of ground or spaced based surveys of minor planets
+
 ## NEATM <img src="https://img.shields.io/badge/Asteroids-red"/>
 
 - https://github.com/MigoMueller/NEATM
